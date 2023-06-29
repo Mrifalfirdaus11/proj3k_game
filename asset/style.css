@@ -1,0 +1,100 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(galaksi.png);
+	font-family: 'Jost', sans-serif;
+}
+
+.main{
+	width: 350px;
+	height: 473px;
+	overflow: hidden;
+	border-radius: 10px;
+	margin-top: 10%;	
+}
+
+.signup{
+	padding-top: 4%;
+	height: 460px;
+	position: relative;
+	border-radius: 15px;
+	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+}
+
+label{
+	color: #fff;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 60px;
+	font-weight: bold;	
+}
+
+input{
+	width: 60%;
+	height: 20px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+
+.input1 input{
+    padding-bottom: 8%;
+    font-size: 18px;
+    color: white;
+    width: 100px;
+	background: #573b8a;
+    cursor: pointer;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.input1 input:hover{
+	background: white;
+	color: #573b8a;
+	transition: .4s ease-in-out;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.login{
+	padding-top: 4%;
+	border-radius: 15px;
+	height: 460px;
+	background: #eee;
+}
+
+.login label{
+	color: #573b8a;
+}
+
+a{
+	text-decoration: none;
+    margin-left: 2px;
+}
+
+#aref{
+	font-size: 11px;
+	color: blue;
+}
+
+.signup span{
+	margin-left: 20%;
+	font-size: small;
+}
+
+.login span{
+	margin-left: 20%;
+	font-size: small;
+}
+
+.main .text{
+    color: #333;
+    font-size: 14px;
+}

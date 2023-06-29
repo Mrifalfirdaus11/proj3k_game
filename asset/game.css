@@ -1,0 +1,144 @@
+body{
+    background: url(galaksi.png);
+    margin: 0%;
+    height: 0%;
+    padding: 0%;
+    overflow: hidden;
+  
+}
+
+h1{ 
+    text-align: center; 
+    background-image: url(bggg.jpeg); 
+    margin-top: 11%;
+  color: purple;
+  width: 20%;
+  height: 45px;
+  padding-top: 10px;
+  margin-left: 38%;
+  font-family: 'Fredoka One', cursive;
+  border-radius: 15px;
+  box-shadow: 2px 2px 30px rgba(255, 255, 255, 0.824);
+} 
+
+.container{ 
+    background-image: url(bggg.jpeg); 
+    box-shadow: 2px 2px 30px rgba(255, 255, 255, 0.824);
+    width: 34%; 
+    height: 250px; 
+    padding-left: 5%;
+    margin-left: 370px; 
+   
+    border-radius: 4px
+} 
+
+.container h2{ 
+    font-family: 'Fredoka One', cursive;
+   padding-top: 5%;
+   color: white;
+} 
+
+.container p{ 
+    font-size: 20px; 
+    color: white;
+    margin-top: 12%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    margin-left: 15px; 
+} 
+
+#logout{ 
+    border: none; 
+    color: white; 
+    background-color:#573b8a; 
+    margin-left: 10px; 
+    margin-top: 22px;
+    cursor: pointer;
+    width: 100px; 
+    height: 30px; 
+    border-radius: 10px; 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+} 
+
+#start{ 
+    border: none; 
+    color: white; 
+    background-color: #573b8a; 
+    width: 100px; 
+    height: 30px; 
+    margin-left: 5%;
+    border-radius: 10px; 
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+} 
+
+canvas{ 
+    border: 1px solid black; 
+    background-image: url(game.jpeg); 
+    box-shadow: 2px 2px 30px rgba(255, 255, 255, 0.824);
+    background-size: cover; 
+    background-position: center; 
+    margin-left: 11%; 
+    margin-top: 65px;
+    /* margin-top: 10%; */
+} 
+
+.ulang{
+margin-left: 12%;
+}
+
+.ulang :hover{
+    background-color: white;
+    color: #573b8a;
+}
+
+.kembali{
+    float: right;
+    margin-right: 12%;
+}
+
+.kembali :hover{
+    background: white;
+    color: #573b8a;
+}
+
+.gamee button{
+    border: none; 
+    color: white; 
+    background-color:#573b8a; 
+    margin-top: 22px;
+    width: 230px; 
+    height: 35px; 
+    border-radius: 10px; 
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+}
+
+.gamee h2{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 83px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer p{ 
+    font-size: 20px; 
+   margin-top: 251px;
+    text-align: center; 
+    color: white;
+    background-color: #2f123b;
+} 
+.container img{
+    width: 151px;
+    float: right;
+}
+
